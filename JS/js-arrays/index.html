@@ -1,0 +1,33 @@
+<script>
+  
+//Create an Array
+document.write("<br /><b>fruits</b><br />");
+var fruits = ['Strawberries', 'Bananas', 'Oranges'];
+document.write(fruits.length);
+
+document.write("<br /><br /><b>cars</b><br />");
+var cars = ["Saab", "Jeep", "Dodge"];
+document.write("<li>" + cars[0] + "</li>");
+
+document.write("<br /><br /><b>cartypes</b><br />");
+var cartypes = [
+    "Pontiac",
+    "Ford",
+    "Mazda"
+]; 
+
+document.write("<br /><br /><b>people</b><br />");
+var people = new Array("Jack", "Joe", "Tom");
+for (i = 0; i < people.length; i++) {
+    document.write("<li>" + people[i] + "</li>");
+}
+
+document.write("<br /><br /><b>person</b><br />");
+var person = [];
+person[0] = "Joe";
+person[1] = "G";
+person[2] = 42;
+document.write("<li>" + person.length + "</li>");
+document.write("<li>" + person[0] + "</li>");
+
+</script>
